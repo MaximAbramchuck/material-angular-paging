@@ -15,13 +15,13 @@ gulp.task('uglify', ['clean'], function () {
         return gulp.src(src)
             .pipe(plugins.concat('dist.min.js'))
             .pipe(plugins.uglify({mangle: false}))
-            .pipe(gulp.dest('build/'));
+            .pipe(gulp.dest('dist/'));
     }
 });
 
 
 gulp.task('clean', function (cb) {
-    return del(['build/'], cb);
+    return del(['dist/'], cb);
 });
 
 gulp.task('default', defaultTasks);

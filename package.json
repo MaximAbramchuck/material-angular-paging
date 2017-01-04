@@ -2,7 +2,7 @@
   "name": "material-angular-paging",
   "version": "0.0.1",
   "description": "A pagination directive for Angular material design library",
-  "main": "gulpfile.js",
+  "main": "dist/dist.min.js",
   "dependencies": {},
   "devDependencies": {
     "del": "^2.2.0",
